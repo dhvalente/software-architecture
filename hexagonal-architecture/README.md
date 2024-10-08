@@ -20,6 +20,8 @@ A arquitetura hexagonal, proposta por Alistair Cockburn, tem como objetivo princ
 
 ## Componentes
 
+![hexagonal-diamond.jpg](hexagonal-diamond.jpg)
+
 ### Domínio
 É o núcleo da aplicação, onde a lógica de negócios e as regras do domínio são implementadas. É independente de camadas externas e mudanças em componentes como bancos de dados ou APIs. O foco principal é resolver problemas do negócio e garantir a correta aplicação das regras do domínio.
 
