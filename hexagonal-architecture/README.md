@@ -39,6 +39,7 @@ São implementações concretas que conectam as ports e facilitam a comunicaçã
 
 ### Use Case
 - **Definição**: Um use case (ou caso de uso) descreve uma interação específica entre um usuário (ou outro sistema) e a aplicação, detalhando um cenário particular que gera valor.
+Um conceito interessante do livro "Get Your Hands Dirty on Clean Architecture" de Tom Hombergs é a ênfase na Arquitetura Hexagonal, focando no papel dos casos de uso como o coração da aplicação. Hombergs argumenta que os casos de uso atuam como uma ponte entre a lógica de negócios (domínio) e o mundo externo, coordenando as interações e garantindo que as regras de negócio sejam aplicadas corretamente. Ao contrário de outras abordagens que podem dispersar a lógica entre várias camadas, ele propõe uma centralização nos casos de uso, facilitando a organização e a manutenção do código. Essa abordagem prática torna a aplicação mais coesa e adaptável a mudanças.
 - **Exemplo**: Um use case pode ser "Registrar um novo usuário", que detalha os passos a seguir, as validações necessárias e as respostas que a aplicação deve fornecer ao usuário.
 
 ### Handlers
